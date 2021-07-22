@@ -16,7 +16,7 @@ Este repositório contém todas as atividades de aprendizagem desenvolvidas por 
 - [x] 2.2 - [Git & GitHub - Entendendo os comandos :link:]()
 - [x] 2.3 - [Internet - Entendendo como ela funciona :link:]()
 
-#### Bloco 3: [Introdução - HTML & CSS](https://github.com/gehmac/trybe-exercicios/tree/main/01_fundamentos/Bloco_03)
+#### Bloco 3: [Introdução - HTML & CSS :ballot_box_with_check:](https://github.com/gehmac/trybe-exercicios/tree/main/01_fundamentos/Bloco_03)
 - [x] 3.1 - [HTML & CSS - Estruturas de página :link:](https://github.com/gehmac/trybe-exercicios/tree/main/01_fundamentos/Bloco_03/Dia_01.01) 
 - [ ] 3.2 - [HTML & CSS - Primeiros passos em CSS :link:]()
 - [ ] 3.3 - [HTML & CSS - Seletores e posicionamento :link:]()
