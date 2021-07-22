@@ -1,0 +1,17 @@
+h1 {
+    font-size: 65px;
+    color: orange;
+}
+.chg-ColorRed{
+    background-color: red;
+    color: black;
+}
+
+.mb{
+    background-color: rgb(100, 25, 45);
+    color: white;
+}
+
+.bc-green{
+    background-color: chartreuse;
+}
