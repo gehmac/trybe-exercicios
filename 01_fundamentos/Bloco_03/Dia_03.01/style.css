@@ -1,27 +1,57 @@
-.caixa {
-    color: white;
-    display: inline-block;
-    line-height: 50px;
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+    margin: 0;
+    background-color: rgb(63, 16, 109);
+
+}
+
+.container {
+    box-shadow: 0 4px 10px rgb(0, 0, 0, 0.5);
+    min-width: 300px;
+    border-radius: 15px;
+    border: 5px solid blueviolet;
+    background-color: blueviolet;
+}
+
+.container-header{
+    padding: 10px;
+}
+
+h1 {
+    background-color: blueviolet;
+    color: #fff;
     text-align: center;
-    vertical-align: top;
-  }
-  
-  .width-and-height {
-    height: 50px;
-    width: 50px;
-  }
-  
-  /* insira na classe abaixo um padding de 20px para aplicá-lo aos itens B, C e D */
-  .padding {
-    padding: 20px;
-  }
-  
-  /* insira na classe abaixo uma margem de 30px para aplicá-la aos itens C e D */
-  .margin {
-    margin: 30px;
-  }
-  
-  /* insira na classe abaixo uma borda com valor '5px solid black' para aplicá-la ao item D */
-  .border {
-    border: 5px solid black;
-  }
+    font-size: 20px;
+}
+
+.container-subheader {
+    color: rgb(37, 3, 68);
+    font-family: 'Roboto', sans-serif;
+    width: 400px;
+    text-align: center;
+    margin: 0;
+
+}
+
+li {
+    color: rgb(72, 0, 131);
+    padding: 3px;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+}
+
+li:hover{
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+a {
+    color: rgb(232, 232, 232);
+    text-decoration:none;
+}
+
+a:hover{
+    color: purple;
+}
