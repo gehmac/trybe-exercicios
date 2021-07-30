@@ -11,4 +11,4 @@ for (let index = 0; index < numbers.length; index += 1){
 			console.log("nenhum valor ímpar encontrado")
     }
 }
-console.log("Existe " + atribuicao.length + " no array")
+console.log("Existe " + atribuicao.length + " ímpares no array")
