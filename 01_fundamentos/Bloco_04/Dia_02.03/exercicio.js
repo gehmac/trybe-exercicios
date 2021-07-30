@@ -27,13 +27,13 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27, -2, 150];
 // if( media > 20 )
 //     console.log("Valor maior que 20")
 //  else 
-//     console.log("valor menor ou igual a 20")
+//     console.log("Valor maior que 20")
 
 // Utilizando for , descubra qual o maior valor contido no array e imprima-o; 
-let maior = 0
-for(let index = 0; index < numbers.length; index += 1){
-    if (numbers[index] > maior){
-        maior = numbers[index]
+let soma = 0
+for (let index = 0; index < numbers.length; index += 1) {
+    if (numbers[index] > soma) {
+        soma = numbers[index]
     }
 }
-console.log(maior)
+console.log(soma)
