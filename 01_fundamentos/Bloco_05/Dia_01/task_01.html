@@ -42,13 +42,30 @@
       </section>
     </main>
   <script>
-    document.getElementsByTagName("p")[0].innerText = "Espero esta em uma boa empresa"
-    document.getElementsByClassName("main-content")[0].style.backgroundColor = 'rgb(76,164,109)'
-    document.getElementsByClassName("center-content")[0].style.backgroundColor = 'white'
-    document.getElementsByTagName("h1")[0].innerText = "Exercício 5.1 - JavaScripit"
-    document.getElementsByTagName("p")[0].style.textTransform  = "uppercase"
-    let p = document.getElementsByTagName("section")[0].innerText
-    console.log(p); 
+
+    function getChangeText(getTag, getText){
+      getTag.innerText = getText
+    }
+    getChangeText(document.getElementsByTagName("p")[0], "Espero esta em uma boa empresa")
+    getChangeText(document.getElementsByTagName("h1")[0], "Exercício 5.1 - JavaScripit")
+
+    function getStyleColor(getTag, getColor) {
+      getTag.style.backgroundColor = getColor
+    }
+    getStyleColor(document.getElementsByClassName("main-content")[0], 'rgb(76,164,109)')
+    getStyleColor( document.getElementsByClassName("center-content")[0], 'white')
+
+    function getPTrasform(getp, getTrasform) {
+      getp.style.textTransform = getTrasform
+    }
+    getPTrasform(document.getElementsByTagName("p")[0], "uppercase")
+
+    function getShowElements(getElement01) {
+      for(let index = 0; index < getElement01.length; index += 1){
+        console.log(getElement01[index].innerText)
+      }
+    }
+    getShowElements(document.getElementsByTagName("p"))
         /*
         Aqui você vai modificar os elementos já existentes utilizando apenas as funções:
         - document.getElementById()
