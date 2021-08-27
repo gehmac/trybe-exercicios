@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <main id="paiDoPai">
+    <section id="pai">pai
+      <section id="primeiroFilho">primeiro filho</section>
+      <section id="elementoOndeVoceEsta">elem  entoOndeVoceEsta
+        <section id="primeiroFilhoDoFilho">primeiroFilhoDoFilho</section>
+        <section id="segundoEUltimoFilhoDoFilho">segundoEUltimoFilhoDoFilho"</section>
+      </section>
+      Atenção!
+      <section id="terceiroFilho">terceiroFilho</section>
+      <section id="quartoEUltimoFilho">quartoEUltimoFilho</section>
+    </section>
+  </main>
+
+  <script>
+    //Acesse o elemento elementoOndeVoceEsta . 
+    document.getElementById("elementoOndeVoceEsta").style.color = "red"
+
+    // Acesse pai a partir de elementoOndeVoceEsta e adicione uma color a ele.
+    document.getElementById("elementoOndeVoceEsta").parentNode.style.color = "blue"
+    
+    //Acesse o primeiroFilhoDoFilho e adicione um texto a ele. Você se lembra dos vídeos da aula anterior, como fazer isso? 
+    document.querySelector("#primeiroFilho").innerHTML = "---- opa o conteudo foi alterado ----"
+    
+    //Acesse o primeiroFilho a partir de pai . 
+    document.querySelector("#pai").firstElementChild.style.color = "rgb(222, 133, 232)"
+   
+    // Agora acesse o primeiroFilho a partir de elementoOndeVoceEsta . 
+    document.getElementById("elementoOndeVoceEsta").parentElement.style.color = "rgb(131, 233, 111)"
+    
+    // Agora acesse o texto Atenção! a partir de elementoOndeVoceEsta . 
+    document.getElementById("elementoOndeVoceEsta").parentElement
+    
+    // Agora acesse o terceiroFilho a partir de elementoOndeVoceEsta . 
+    document.getElementById("elementoOndeVoceEsta").parentElement.lastElementChild.previousElementSibling.previousElementSibling.style.color = "rgb(131, 23, 11)"
+    
+    // Agora acesse o terceiroFilho a partir de pai . 
+    document.querySelector("#pai").lastElementChild.previousElementSibling.style.color = "rgb(222, 133, 232)"
+
+  </script>
+</body>
+</html>
