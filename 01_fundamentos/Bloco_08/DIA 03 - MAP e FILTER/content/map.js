@@ -56,8 +56,8 @@ console.log(negativeNumbers);
 const cardMosters = ['Obelisk the Tormentor', 'Slifer the Sky Dragon', 'The Winged Dragon of Ra ']
 const godDamege = [4000, 'x0000', '????']
 
-const updateCards = (cards, damegeGods) => cards.map((card, damege) => (
-  { [card]: damegeGods[damege] } // unio os dois arrays dando o valor do dano para cada um deles
+const updateCards = (cards, damegeGods) => cards.map((card, index) => (
+  { [card]: damegeGods[index] } // uni os dois arrays dando o valor do dano para cada um deles
 ));
 
 console.log(updateCards(cardMosters, godDamege));
