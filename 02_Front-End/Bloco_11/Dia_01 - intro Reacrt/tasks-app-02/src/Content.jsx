@@ -27,8 +27,8 @@ class Content extends Component {
   render() {
     return ( 
       <div className="content"> 
-        {conteudos.map(({conteudo, bloco, status}) => (
-          <div className="card">
+        {conteudos.map(({conteudo, bloco, status}, id) => (
+          <div key={id} className="card">
             <h4>{`O conteudo é: ${conteudo}`}</h4>
             <p>{`Status: ${status}`}</p>
             <p>{`Bloco: ${bloco}`}</p>
