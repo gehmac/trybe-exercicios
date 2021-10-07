@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(222, 222, 222);
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.datas-poke {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-name {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border: 2px solid rgb(29, 86, 184);
+  max-width: 450px;
+  background-color: rgb(228, 228, 228);
+  margin: 5px;
+  padding: 10px;
+  border-radius: 20px;
+}
